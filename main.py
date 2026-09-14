@@ -38,6 +38,7 @@ custo_4 = float(linha_4.split(",")[1].strip())
 total = custo_1 + custo_2 + custo_3 + custo_4
 
 print("\nPAINEL FINAL")
-print("Startup:", startups["nome"])
+print("Startup:", startup
+      ["nome"])
 print("Bancada alocada: Bancada N1")
 print(f"Total de infraestrutura cloud: R$ {total:.2f}")
